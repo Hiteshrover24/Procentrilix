@@ -105,3 +105,29 @@ footer {
   color: #fff;
   font-size: 0.9rem;
 }
+.contact-form {
+  max-width: 500px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-email {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.95rem;
+}
